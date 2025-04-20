@@ -3,7 +3,7 @@
 """
 Created on Sun Apr 20 13:52:41 2025
 
-@author: haenainglay
+@author: ayechanaung
 """
 
 import streamlit as st
