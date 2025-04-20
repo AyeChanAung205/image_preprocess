@@ -15,7 +15,7 @@ import io
 import pickle
 
 with open('model.pkl','rb') as f:
-    model = pickel.load(f)
+    model = pickle.load(f)
     
 st.title("Image Classification with MobileNetV2 by Nongnuch Ketui")
 
