@@ -31,7 +31,7 @@ if upload_file is not None:
     x = preprocess_input(x)
     
     preds = model.predict
-    top_presds = decode_predictions(preds, top=3)[0]
+    top_preds = decode_predictions(preds, top=3)[0]
     
     st.subheader("Prediction:")
     for i, pred in enumerate(top_preds) :
